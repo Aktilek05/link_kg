@@ -20,7 +20,7 @@ body {
 .content-row {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .content-text {

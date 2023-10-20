@@ -1,0 +1,92 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgba(218,32,255,1) 1%, rgba(61,40,184,1) 100%, rgba(16,0,255,1) 100%);
+}
+.content {
+    font-family: 'Poppins', sans-serif;
+}
+
+.img {
+    display: none;
+}
+.container {
+    max-width: 1200px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.content-text {
+    color: #FFF;
+}
+.content-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.content-text p {
+    font-size: 28px;
+    font-weight: 400;
+}
+    
+/* button */
+.floating-button2 {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button2:hover {
+    background: #0008ff;
+    box-shadow: 0 15px 20px rgba(3, 3, 156, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #00020b;
+    box-shadow: 0 15px 20px rgba(3, 3, 156, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
